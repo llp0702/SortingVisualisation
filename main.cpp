@@ -6,7 +6,7 @@
 #include "Display.h"
 #include <thread>
 
-const int sizeArray = 100;
+const int sizeArray = 300;
 const int width = 800;
 const int height = 600;
 
@@ -25,8 +25,8 @@ int main()
     srand((unsigned)time(NULL));
     SortArray sa(sizeArray);
     sa.initValues(height);
-    cout << "Array well initialized" <<endl;
-    sa.print();
+    //cout << "Array well initialized" <<endl;
+    //sa.print();
 
     Display display(width, height);
     thread t(threadInitAndShow, &display, &sa);

@@ -34,10 +34,8 @@ void Display::showArray(const SortArray &array){
     for(int i=0; i<size; i++){
         sf::RectangleShape rect(sf::Vector2f(width/size,v[i]));
         rect.setPosition( i*(sizePixels), height-v[i]);
-//        std::cout<<<<std::endl;
-        int value =(v[i]*255)/height;
-        rect.setFillColor(sf::Color(value,value,0));
-        //cout<<rect.getFillColor().toInteger()<<endl;
+        std::vector<int> rgb=util::fromIntToRgb(v[i], height);
+        rect.setFillColor(sf::Color(rgb[0],rgb[1],rgb[2]));
         window.draw(rect);
     }
     // end the current frame

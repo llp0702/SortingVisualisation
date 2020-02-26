@@ -25,7 +25,7 @@ void SortArray::insertionSort(){
             usleep(1000);
         }
     }
-    print();
+    //print();
 }
 void SortArray::print() const{
     for(auto element=v.begin(); element!=v.end(); element++){
@@ -38,8 +38,10 @@ SortArray::SortArray(int size, int dtMs) : v(std::vector<int>(size)), dtMs(dtMs)
 
 void SortArray::initValues(const int modulo){
     for(int i=0; i<v.size(); i++){
-        v[i] = rand()%modulo;
+        //v[i] = rand()%modulo;
+        v[i]=(i*modulo)/v.size();
     }
+    print();
 }
 void SortArray::doOne() {
     shuffle();

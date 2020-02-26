@@ -1,0 +1,1 @@
+/usr/bin/g++   -std=c++11 -pthread -g   CMakeFiles/cppsfml.dir/main.cpp.o CMakeFiles/cppsfml.dir/SortArray.cpp.o CMakeFiles/cppsfml.dir/Display.cpp.o CMakeFiles/cppsfml.dir/util.cpp.o  -o cppsfml /usr/lib/x86_64-linux-gnu/libsfml-window.so /usr/lib/x86_64-linux-gnu/libsfml-graphics.so -lsfml-system 

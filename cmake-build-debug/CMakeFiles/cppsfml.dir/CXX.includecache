@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/llp0702/Documents/dev/cppsfml/Display.h
+SFML/Graphics/RenderWindow.hpp
+-
+SortArray.h
+/home/llp0702/Documents/dev/cppsfml/SortArray.h
+
+/home/llp0702/Documents/dev/cppsfml/SortArray.h
+vector
+-
+
+/home/llp0702/Documents/dev/cppsfml/main.cpp
+SFML/Graphics.hpp
+-
+string
+-
+iostream
+-
+cstdlib
+-
+SortArray.h
+/home/llp0702/Documents/dev/cppsfml/SortArray.h
+Display.h
+/home/llp0702/Documents/dev/cppsfml/Display.h
+thread
+-
+

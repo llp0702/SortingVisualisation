@@ -6,7 +6,7 @@
 #include "Display.h"
 #include <thread>
 
-const int sizeArray = 300;
+const int sizeArray = 50;
 const int width = 800;
 const int height = 600;
 

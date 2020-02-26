@@ -6,29 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/llp0702/Documents/dev/cppsfml/Display.h
-SFML/Graphics/RenderWindow.hpp
--
-SortArray.h
-/home/llp0702/Documents/dev/cppsfml/SortArray.h
-
-/home/llp0702/Documents/dev/cppsfml/SortArray.h
-vector
--
-
-/home/llp0702/Documents/dev/cppsfml/main.cpp
-SFML/Graphics.hpp
--
-string
+/home/llp0702/Documents/dev/cppsfml/util.cpp
+cstdlib
 -
 iostream
 -
-cstdlib
--
-SortArray.h
-/home/llp0702/Documents/dev/cppsfml/SortArray.h
-Display.h
-/home/llp0702/Documents/dev/cppsfml/Display.h
-thread
+util.h
+/home/llp0702/Documents/dev/cppsfml/util.h
+
+/home/llp0702/Documents/dev/cppsfml/util.h
+vector
 -
 

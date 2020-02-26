@@ -11,8 +11,8 @@ std::vector<int> util::fromIntToHsv(const int val,const int max){
     h = (val * 360)/max;
     s = (val * 100)/max;
     v = 100;
-    cout<<val<<"val"<<endl;
-    cout << std::vector<int>({h,s,v})[0]<<" "<< std::vector<int>({h,s,v})[1]<<endl;
+    //cout<<val<<"val"<<endl;
+    //cout << std::vector<int>({h,s,v})[0]<<" "<< std::vector<int>({h,s,v})[1]<<endl;
     return std::vector<int>({h,s,v});
 }
 std::vector<int> util::fromHsvToRgb(int h, const int s, const int v){
@@ -51,8 +51,8 @@ std::vector<int> util::fromHsvToRgb(int h, const int s, const int v){
     r= static_cast<unsigned char>((rf+m)*255);
     g= static_cast<unsigned char>((gf+m)*255);
     b= static_cast<unsigned char>((bf+m)*255);
-    cout<<"r"<<(int)r<<"g"<<(int)g<<"b"<<(int)b<<endl;
-    cout<<"rf"<<(float)rf<<"gf"<<(float)gf<<"bf"<<(float)bf<<"m"<<(float)m<<endl;
-    cout << "rgb"<<b+256*g+256*256*r<<endl;
+    //cout<<"r"<<(int)r<<"g"<<(int)g<<"b"<<(int)b<<endl;
+    //cout<<"rf"<<(float)rf<<"gf"<<(float)gf<<"bf"<<(float)bf<<"m"<<(float)m<<endl;
+    //cout << "rgb"<<b+256*g+256*256*r<<endl;
     return std::vector<int>({r,g,b});
 }
